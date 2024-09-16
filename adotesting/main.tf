@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket        = "testttting838980"
+  bucket        = "portfolioweb2024"
   force_destroy = true
 }
 
@@ -41,6 +41,7 @@ resource "aws_s3_bucket_policy" "site" {
       },
     ]
   })
+
 }
 
 resource "aws_s3_object" "upload_html" {
