@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket        = "portfolioweb2024"
+  bucket        = "proportfolioweb2024"
   force_destroy = true
 }
 
